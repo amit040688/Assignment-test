@@ -1858,7 +1858,8 @@ h2.current_project-title {
         padding: 0 10px;
     }
     .banner_title{
-        font-size: 37px;
+        font-size: 33px;
+        line-height: 43px;
     }
     .banner_des {
         line-height: 21px;
@@ -1936,5 +1937,13 @@ h2.current_project-title {
 .we_design_right_mid ul li {
     font-size: 17px;
 }
+}
+
+
+@media(max-width:375px){
+    .banner_title {
+        font-size: 28px;
+        line-height: 39px;
+    }
 }
 /* media query end  */
